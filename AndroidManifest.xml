@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    package="com.example.thefrothybikecobookingsys">
+
+    <uses-permission android:name="android.permission.INTERNET" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/prototwo"
+        android:label="Customer Booking App"
+        android:roundIcon="@mipmap/prototwo_round"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme"
+        android:usesCleartextTraffic="true"
+        tools:replace="android:label">
+        <activity android:name=".webViewRRP"></activity>
+        <activity android:name=".webViewFiveTen" />
+        <activity android:name=".webViewHope" />
+        <activity android:name=".webViewSantaCruz" />
+        <activity android:name=".webViewMadison" />
+        <activity android:name=".webViewBurgtec" />
+        <activity android:name=".webViewMondraker" />
+        <activity android:name=".webViewRaceface" />
+        <activity android:name=".webViewSchwalbe" />
+        <activity android:name=".webViewSilverfish" />
+        <activity android:name=".webViewSaddleback" />
+        <activity android:name=".webView100Percent" />
+        <activity android:name=".webSites" />
+        <activity android:name=".Splash_in">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity android:name=".SearchDatabase" />
+        <activity
+            android:name=".ScrollingActivity"
+            android:label="Prototype App"
+            android:theme="@style/AppTheme" />
+
+        <meta-data
+            android:name="preloaded_fonts"
+            android:resource="@array/preloaded_fonts" />
+    </application>
+
+</manifest>

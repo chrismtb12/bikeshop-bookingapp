@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/search_layout"
+    android:layout_marginStart="2dp"
+    android:layout_marginLeft="2dp"
+    android:layout_marginTop="2dp"
+    android:layout_marginEnd="2dp"
+    android:layout_marginRight="2dp"
+    tools:context=".SearchDatabase">
+
+    <EditText
+        android:id="@+id/search_field"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="false"
+        android:layout_alignParentTop="false"
+        android:layout_marginStart="6dp"
+        android:layout_marginTop="4dp"
+        android:layout_marginEnd="6dp"
+        android:background="@drawable/search_layout"
+        android:fontFamily="@font/avenir_roman"
+        android:hint=" Search For Customers Bike"
+        android:inputType="textCapWords"
+        android:paddingLeft="16dp"
+        android:paddingTop="10dp"
+        android:paddingRight="16dp"
+        android:paddingBottom="10dp"
+        android:textSize="18sp" />
+
+    <ImageButton
+        android:id="@+id/searchbtn"
+        android:layout_width="44dp"
+        android:layout_height="42dp"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="true"
+        android:layout_marginTop="4dp"
+        android:layout_marginEnd="11dp"
+        android:background="#00FFFFFF"
+        app:srcCompat="@android:drawable/ic_menu_search" />
+
+    <android.support.v7.widget.RecyclerView
+        android:id="@+id/result_list"
+        android:layout_width="match_parent"
+        android:layout_height="1043dp"
+        android:layout_below="@+id/search_field"
+        android:layout_alignEnd="@+id/search_field"
+        android:layout_marginTop="1dp"
+        android:layout_marginEnd="-29dp"
+        android:clickable="true"
+        android:longClickable="true">
+
+    </android.support.v7.widget.RecyclerView>
+
+</RelativeLayout>

@@ -1,0 +1,224 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/dialog_rounded_bg"
+    android:orientation="vertical"
+    android:padding="@dimen/activity_horizontal_margin">
+
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:fontFamily="@font/avenir_roman"
+        android:text="Updating Customer"
+        android:textAppearance="@style/TextAppearance.AppCompat.Display1"
+        android:textSize="22sp" />
+
+
+    <View
+        android:id="@+id/view1"
+        android:layout_width="265dp"
+        android:layout_height="12dp"
+        android:layout_gravity="center_horizontal" />
+
+    <TextView
+        android:id="@+id/customerNameHeader"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:fontFamily="@font/avenir_roman"
+        android:textAlignment="center"
+        android:textSize="18sp" />
+
+    <View
+        android:id="@+id/viewline"
+        android:layout_width="256dp"
+        android:layout_height="1dp"
+        android:layout_gravity="center_horizontal"
+        android:background="#000000" />
+
+    <View
+        android:id="@+id/vieww"
+        android:layout_width="256dp"
+        android:layout_height="4dp"
+        android:layout_gravity="center_horizontal" />
+
+    <TextView
+        android:id="@+id/textViewNewRepairQ"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:fontFamily="@font/avenir_roman"
+        android:text="New Repair Quote:"
+        android:textAlignment="center"
+        android:textSize="18sp" />
+
+    <View
+        android:id="@+id/view7"
+        android:layout_width="265dp"
+        android:layout_height="6dp"
+        android:layout_gravity="center_horizontal" />
+
+    <EditText
+        android:id="@+id/editTextNewRepairQ"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:fontFamily="@font/avenir_roman"
+        android:hint="Enter New Repair Quote"
+        android:inputType="text"
+        android:textAlignment="center"
+        android:textSize="14sp" />
+
+    <TextView
+        android:id="@+id/textViewNewLabourQ"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:fontFamily="@font/avenir_roman"
+        android:text="New Labour Quote:"
+        android:textAlignment="center"
+        android:textSize="18sp" />
+
+    <View
+        android:id="@+id/view5"
+        android:layout_width="265dp"
+        android:layout_height="6dp"
+        android:layout_gravity="center_horizontal" />
+
+    <EditText
+        android:id="@+id/editTextNewLabourQ"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:fontFamily="@font/avenir_roman"
+        android:hint="Enter New Labour Quote"
+        android:inputType="text"
+        android:textAlignment="center"
+        android:textSize="14sp" />
+
+
+    <TextView
+        android:id="@+id/textViewNewPartQ"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:fontFamily="@font/avenir_roman"
+        android:text="New Part Quote:"
+        android:textAlignment="center"
+        android:textSize="18sp" />
+
+    <View
+        android:id="@+id/view3"
+        android:layout_width="265dp"
+        android:layout_height="6dp"
+        android:layout_gravity="center_horizontal" />
+
+    <EditText
+        android:id="@+id/editTextNewPartQ"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:fontFamily="@font/avenir_roman"
+        android:hint="Enter New Part Quote"
+        android:inputType="text"
+        android:textAlignment="center"
+        android:textSize="14sp" />
+
+
+    <View
+        android:id="@+id/view14"
+        android:layout_width="265dp"
+        android:layout_height="6dp"
+        android:layout_gravity="center_horizontal" />
+
+    <TextView
+        android:id="@+id/textViewNewPartInStockOption"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:fontFamily="@font/avenir_roman"
+        android:text="New Part In Stock: (if required)"
+        android:textAlignment="center"
+        android:textSize="18sp" />
+
+    <View
+        android:id="@+id/view15"
+        android:layout_width="265dp"
+        android:layout_height="6dp"
+        android:layout_gravity="center_horizontal" />
+
+    <EditText
+        android:id="@+id/editTextNewPartInStockOption"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:fontFamily="@font/avenir_roman"
+        android:hint="Enter Yes or No"
+        android:inputType="text"
+        android:textAlignment="center"
+        android:textSize="14sp" />
+
+    <View
+        android:id="@+id/view12"
+        android:layout_width="265dp"
+        android:layout_height="6dp"
+        android:layout_gravity="center_horizontal" />
+
+    <TextView
+        android:id="@+id/textViewNewPartToBeOrderedOption"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:fontFamily="@font/avenir_roman"
+        android:text="Do New Parts Need To Be Ordered: (if required)"
+        android:textAlignment="center"
+        android:textSize="18sp" />
+
+    <View
+        android:id="@+id/view13"
+        android:layout_width="265dp"
+        android:layout_height="6dp"
+        android:layout_gravity="center_horizontal" />
+
+    <EditText
+        android:id="@+id/editTextNewPartToBeOrderedOption"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:fontFamily="@font/avenir_roman"
+        android:hint="Enter Yes or No"
+        android:inputType="text"
+        android:textAlignment="center"
+        android:textSize="14sp" />
+
+    <View
+        android:id="@+id/view10"
+        android:layout_width="265dp"
+        android:layout_height="6dp"
+        android:layout_gravity="center_horizontal" />
+
+    <TextView
+        android:id="@+id/textViewNewPartToBeOrdered"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:fontFamily="@font/avenir_roman"
+        android:text="New Part To Be Ordered:"
+        android:textAlignment="center"
+        android:textSize="18sp" />
+
+    <View
+        android:id="@+id/view11"
+        android:layout_width="265dp"
+        android:layout_height="6dp"
+        android:layout_gravity="center_horizontal" />
+
+    <EditText
+        android:id="@+id/editTextNewPartToBeOrdered"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:fontFamily="@font/avenir_roman"
+        android:hint="Enter New Part To Be Ordered"
+        android:inputType="text"
+        android:textAlignment="center"
+        android:textSize="14sp" />
+
+
+</LinearLayout>
